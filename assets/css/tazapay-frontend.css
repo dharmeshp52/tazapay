@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap");
+
+.payment_method_tz_tazapay .tazapay-checkout-button {
+    margin-top: 20px;
+}
+/* 
+.payment_method_tz_tazapay .tazapay-payment-logo img {
+    margin-top: 4px;
+    max-width: 80px;
+}
+*/
+.payment_method_tz_tazapay .tazapay-payment-method {
+    margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+    .payment_method_tz_tazapay .tazapay-payment-logo {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .payment_method_tz_tazapay .tazapay-payment-logo .tazapay-payment-vertical-line {
+        border-left: 2px solid #e2e8f0;
+        height: 30px;
+    }
+}
+
+/* Checkout Page */
+.payment_method_tz_tazapay img {
+    max-height: 20px !important;
+}
+
+.tw-flex {
+    display: flex;
+}
+
+.tw-flex-wrap {
+    flex-wrap: wrap;
+}
+
+.tw-mt-2 {
+    margin-top: 1rem;
+}
+
+.tw-gap-2 {
+    gap: 1rem;
+}
+
+.tazapay-click-here {
+    color: #2271b1;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;;
+}
